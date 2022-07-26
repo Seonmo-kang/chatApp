@@ -98,7 +98,7 @@ const Container = styled.div`
 `;
 
 const SetAvatar = () => {
-    const api = 'https://api.multiavatar.com/kbYMowDmGZJO0x'; // change this api key into express route
+    const api = 'https://api.multiavatar.com/4567845'; // change this api key into express route
     const navigate = useNavigate();
     const [avatars, setAvatars] = useState([]);
     const [isLoading, setIsLoading] = useState(true);

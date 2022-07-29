@@ -1,4 +1,5 @@
-export const HOST = "http://localhost:3001";
+// export const HOST = "http://localhost:3001";
+export const HOST = "http://localhost:80";
 export const registerRoute = `${HOST}/api/auth/register`;
 export const loginRoute = `${HOST}/api/auth/login`;
 export const setAvatarRoute = `${HOST}/api/auth/setAvatar`;

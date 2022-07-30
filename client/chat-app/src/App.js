@@ -1,4 +1,4 @@
-import React,{useState, useEffect, useRef} from 'react';
+import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Register from './pages/Register';
@@ -7,7 +7,6 @@ import Login from './pages/Login';
 import SetAvatar from './pages/SetAvatar';
 
 import './App.scss';
-export const ENDPOINT = "http://localhost:3001";
 
 function App() {
 
